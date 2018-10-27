@@ -75,4 +75,3 @@ print("Hamming loss with classifier 3 on testing set: ", loss_3)
 Y_pred_3_bis = classifier_3.predict(X_train) 
 loss_3_bis = np.mean(Y_pred_3_bis != Y_train)
 print("Hamming loss with classifier 3 on training set: ", loss_3_bis)
-"""
